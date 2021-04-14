@@ -96,6 +96,9 @@ img {
 	.semi-section {
 		margin-top: 0;
 	}
+	.last-section {
+		padding-bottom: 50px;
+	}
 }
 
 @media (max-width: 576px) {
