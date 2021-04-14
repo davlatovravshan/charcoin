@@ -163,6 +163,7 @@
 	.footer_link {
 		font-size: 18px;
 		line-height: 22px;
+		font-weight: 500;
 	}
 
 	.footer_link img {
@@ -177,7 +178,7 @@
 	}
 
 	.footer-right {
-		margin-top: 50px;
+		margin-top: 30px;
 	}
 
 }
