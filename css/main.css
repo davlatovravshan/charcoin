@@ -1,0 +1,104 @@
+@import 'header.css';
+@import 'banner.css';
+@import 'banner-2.css';
+@import 'benefits.css';
+@import 'slider.css';
+@import 'elephant.css';
+@import 'footer.css';
+@import 'cards.css';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+	min-height: 100%;
+	overflow-x: hidden;
+	background: #E5E5E5;
+}
+
+.wrapper {
+	max-width: 1459px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:focus, input:focus, button:focus {
+	outline: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+.main_btn {
+	cursor: pointer;
+	border: none;
+	padding: 26px 57px;
+	background: #313840;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+
+.section {
+	margin-top: 180px;
+}
+
+.semi-section {
+	margin-top: 80px;
+}
+
+@media (max-width: 992px) {
+	.section {
+		margin-top: 100px;
+	}
+	.semi-section {
+		margin-top: 50px;
+	}
+	.wrapper {
+		padding: 0 20px;
+	}
+	.main_btn {
+		padding: 20px 40px;
+		font-size: 20px;
+		line-height: 24px;
+	}
+}
+
+@media (max-width: 768px) {
+	.semi-section {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 576px) {
+	.section {
+		margin-top: 46px;
+	}
+	.main_btn {
+		font-size: 12px;
+		line-height: 15px;
+		padding: 10px 22px;
+	}
+}
