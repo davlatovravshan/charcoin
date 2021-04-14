@@ -6,7 +6,7 @@
 }
 
 .block-img {
-	flex-basis: 400px;
+	flex-basis: 80%;
 }
 
 .block-info {
@@ -33,10 +33,6 @@
 	right: -70px;
 }
 
-.block-img {
-	text-align: center;
-}
-
 /*.block-info .text-sm {
 	font-size: 24px;
 	line-height: 29px;
@@ -48,6 +44,10 @@
 		margin: 24px 0;
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+
+	.block-img {
+		text-align: center;
 	}
 
 	.tech-reverse-block .block-img {
