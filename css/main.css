@@ -6,6 +6,8 @@
 @import 'elephant.css';
 @import 'footer.css';
 @import 'cards.css';
+@import 'tech.css';
+@import 'road.css';
 
 * {
 	margin: 0;

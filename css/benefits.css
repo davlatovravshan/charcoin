@@ -14,6 +14,14 @@
 	margin-bottom: 24px;
 }
 
+.title-sm {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	color: #000000;
+	margin-bottom: 24px;
+}
+
 .text {
 	font-weight: normal;
 	font-size: 48px;
@@ -113,6 +121,10 @@
 		font-size: 40px;
 		line-height: 50px;
 	}
+	.title-sm {
+		font-size: 32px;
+		line-height: 40px;
+	}
 	.benefits_card {
 		width: 100%;
 	}
@@ -144,7 +156,10 @@
 		font-size: 36px;
 		line-height: 40px;
 	}
-
+	.title-sm {
+		font-size: 24px;
+		line-height: 36px;
+	}
 	.text {
 		font-size: 20px;
 		line-height: 24px;
@@ -200,6 +215,10 @@
 	.title {
 		font-size: 22px;
 		line-height: 27px;
+	}
+	.title-sm {
+		font-size: 18px;
+		line-height: 24px;
 	}
 	.text {
 		font-size: 14px;
