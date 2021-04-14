@@ -51,6 +51,9 @@
 		background-position: -100px -150px;
 		background-size: 600px 700px;
 	}
+}
+
+@media (max-width: 1200px) {
 	.banner_title h1 {
 		font-size: 50px;
 		line-height: 68px;

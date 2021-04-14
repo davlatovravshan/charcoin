@@ -15,7 +15,7 @@
 }
 
 .banner-3-center p {
-	max-width: 712px;
+	max-width: 1026px;
 	margin: 0 auto;
 	margin-bottom: 32px;
 }
@@ -76,6 +76,10 @@
 }
 
 @media (max-width: 576px) {
+
+	.banner-3-center {
+		padding-top: 120px;
+	}
 
 	.banner-2 {
 		padding-top: 100px;
