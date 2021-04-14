@@ -5,14 +5,16 @@
 	margin-bottom: 50px;
 }
 
-.block-img {
-	flex-basis: 70%;
-}
+
 
 .block-info {
 	flex-grow: 1;
 	position: relative;
 	padding-left: 100px;
+}
+
+.block-info p {
+	max-width: 712px;
 }
 
 .point-img {
