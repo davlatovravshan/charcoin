@@ -51,6 +51,7 @@ img {
 }
 
 .main_btn {
+	display: inline-block;
 	cursor: pointer;
 	border: none;
 	padding: 26px 57px;
