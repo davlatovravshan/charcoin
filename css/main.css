@@ -72,7 +72,22 @@ img {
 }
 
 .last-section {
-	padding-bottom: 250px;
+	position: relative;
+	background-image: url('../img/banner/figure-2.svg');
+	background-repeat: no-repeat;
+	background-size: 600px;
+	background-position: bottom -380px right;
+}
+
+.last-section .wrapper {
+	padding-bottom: 500px;
+}
+
+.prizma-img {
+	width: 400px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 @media (max-width: 992px) {
@@ -90,6 +105,16 @@ img {
 		font-size: 20px;
 		line-height: 24px;
 	}
+	.last-section {
+		background-size: 450px;
+		background-position: bottom -280px right;
+	}
+	.last-section .wrapper {
+		padding-bottom: 400px;
+	}
+	.prizma-img {
+		width: 300px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -98,6 +123,16 @@ img {
 	}
 	.last-section {
 		padding-bottom: 50px;
+	}
+	.last-section {
+		background-size: 350px;
+		background-position: bottom -220px right;
+	}
+	.last-section .wrapper {
+		padding-bottom: 300px;
+	}
+	.prizma-img {
+		width: 250px;
 	}
 }
 
@@ -109,5 +144,17 @@ img {
 		font-size: 12px;
 		line-height: 15px;
 		padding: 10px 22px;
+	}
+	.last-section {
+		background-size: 200px;
+		background-position: bottom -100px right;
+	}
+	.last-section .wrapper {
+		padding-bottom: 200px;
+	}
+	.prizma-img {
+		left: -20px;
+		bottom: 80px;
+		width: 150px;
 	}
 }
