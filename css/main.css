@@ -9,6 +9,7 @@
 @import 'tech.css';
 @import 'road.css';
 @import 'simple-cards.css';
+@import 'beta.css';
 
 * {
 	margin: 0;
@@ -42,7 +43,7 @@ a:hover {
 	text-decoration: none;
 }
 
-a:focus, input:focus, button:focus {
+a:focus, input:focus, textarea:focus, button:focus {
 	outline: none;
 }
 
