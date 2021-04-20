@@ -1,81 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CharCoin</title>
-
-	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-	<link rel="manifest" href="favicon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/main.css">
+	<?php require 'blocks/head.php' ?>
 </head>
 <body>
 	
-	<header id="header">
-		
-		<div class="wrapper">
-			
-			<div class="header">
-
-				<div class="left-header">
-					<div class="logo">
-						<img src="img/logo.png" alt="Logo" class="logo_img"/>
-					</div>
-				</div>
-
-				<div class="right-header">
-
-					<ul class="header_list">
-						<li><a href="home" class="header_link">Home</a></li>
-						<li><a href="services" class="active header_link">Services</a></li>
-						<li><a href="about" class="header_link">About Us</a></li>
-						<li>
-							<img class="search_img" src="img/search.png" alt="Search"/>
-						</li>
-					</ul>
-
-					<div class="menu">
-						<button class="menu-burger">
-							<span class="menu-span span-1"></span>
-							<span class="menu-span span-2"></span>
-							<span class="menu-span span-3"></span>
-						</button>
-					</div>
-
-				</div>
-
-			</div>
-
-		</div>
-
-	</header>
-
-	<div class="menu-sm">
-		<ul class="menu-sm_list">
-			<li><a href="home" class="menu-sm_link">Home</a></li>
-			<li><a href="services" class="menu-sm_link">Services</a></li>
-			<li><a href="about" class="menu-sm_link">About Us</a></li>
-		</ul>
-	</div>
-
+<?php require 'blocks/header.php' ?>
 
 	<section id="banner">
 		
@@ -294,85 +224,9 @@
 	
 	</section>
 
-
-	<footer id="footer">
-		
-		<div class="wrapper">
-			<div class="footer">
-				<div class="footer-left">
-				<h4 class="footer_title">CharCoin</h4>
-				<p class="footer_text">
-					We will disrupt the digital art space.
-				</p>
-				<p class="footer_title-sm">All Rights Reserved</p>
-			</div>
-			<div class="footer-right">
-				<ul class="footer_list">
-					<li>
-						<a href="home" class="footer_link">
-							<img src="img/footer-arrow.png" alt="Arrow">
-							&nbsp;&nbsp;Home
-						</a>
-					</li>
-					<li>
-						<a href="services" class="footer_link">
-							<img src="img/footer-arrow.png" alt="Arrow">
-							&nbsp;&nbsp;Services
-						</a>
-					</li>
-					<li>
-						<a href="about" class="footer_link">
-							<img src="img/footer-arrow.png" alt="Arrow">
-							&nbsp;&nbsp;About Us
-						</a>
-					</li>
-				</ul>
-				<div class="search">
-					<input type="search" class="footer_input" placeholder="Search">
-					<button class="search_btn">
-						<img src="img/search.png" alt="Search Btn">
-					</button>
-				</div>
-				<p class="footer_reserve footer_title-sm">Write us: team@charcoin.io</p>
-			</div>
-			</div>
-		</div>
-
-	</footer>
-
-
-
-<script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
-<script src="js/slick.min.js"></script>
+<?php require 'blocks/footer.php' ?>
 
 <script src="js/main.js"></script>
-
-<script>
-	$(document).ready(function() {
-
-		$('.slider_content').slick({
-			slidesToShow: 3,
-			responsive: [
-			    {
-			      breakpoint: 992,
-			      settings: {
-			        slidesToShow: 2,
-			      }
-			    },
-			    {
-			      breakpoint: 576,
-			      settings: {
-			        slidesToShow: 1,
-			      }
-			    }
-		    ]
-		});
-
-	})
-</script>
 
 </body>
 </html>

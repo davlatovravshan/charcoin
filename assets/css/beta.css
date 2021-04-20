@@ -11,12 +11,27 @@
 	max-width: 730px;
 }
 
+.beta-sm {
+	display: none;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 50px;
+}
+.bg-sm_img {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
 .beta_title {
 	font-weight: 800;
 	font-size: 96px;
 	line-height: 117px;
 	color: #263238;
 	text-shadow: 12px 12px 12px rgba(0, 0, 0, 0.25);
+}
+.bet_title-sm {
+	margin-bottom: 24px;
+	text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
 }
 
 .beta_text {
@@ -27,6 +42,10 @@
 	line-height: 44px;
 	color: #4A4A4A;
 	text-shadow: 12px 12px 12px rgba(0, 0, 0, 0.25);
+}
+.beta_text-sm {
+	margin-bottom: 24px;
+	text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
 }
 
 .beta_button {
@@ -41,6 +60,10 @@
 	font-size: 24px;
 	line-height: 29px;
 	color: #FFFFFF;
+}
+
+.down-arrow {
+	margin-top: 30px;
 }
 
 #send {
@@ -123,7 +146,7 @@ input[type=file] {
 	text-align: center;
 	margin-top: 100px;
 }
-.form_button button {
+.form_button button, .mail_btn  {
 	width: 400px;
 	font-weight: 500;
 	font-size: 36px;
@@ -132,6 +155,78 @@ input[type=file] {
 	text-transform: uppercase;
 }
 
+.sended {
+	text-align: center;
+}
+
+.mail_success {
+	margin-top: 24px;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	color: #263238;
+}
+.mail_text {
+	margin-top: 24px;
+	font-size: 36px;
+	line-height: 44px;
+	color: #4A4A4A;
+}
+.mail_info {
+	margin-bottom: 24px;
+}
+
+.mail_text > a {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+	color: #4A4A4A;
+	text-transform: uppercase;
+}
+
+
+.spinner {
+	display: none;
+	animation: rotate 2s linear infinite;
+	z-index: 2;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -25px 0 0 -25px;
+	width: 50px;
+	height: 50px;
+}
+.main_btn.active {
+	font-size: 0;
+}
+.main_btn.active .spinner {
+	display: block;
+}
+ .spinner .path {
+	stroke: #fff;
+	stroke-linecap: square;
+	animation: dash 1.5s ease-in-out infinite;
+}
+ @keyframes rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+ @keyframes dash {
+	0% {
+		stroke-dasharray: 1, 150;
+		stroke-dashoffset: 0;
+	}
+	50% {
+		stroke-dasharray: 90, 150;
+		stroke-dashoffset: -35;
+	}
+	100% {
+		stroke-dasharray: 90, 150;
+		stroke-dashoffset: -124;
+	}
+}
 
 
 
@@ -210,7 +305,7 @@ input[type=file] {
 		text-align: center;
 		margin-top: 60px;
 	}
-	.form_button button {
+	.form_button button, .mail_btn {
 		font-size: 30px;
 		line-height: 36px;
 	}
@@ -289,11 +384,35 @@ input[type=file] {
 		text-align: center;
 		margin-top: 50px;
 	}
-	.form_button button {
+	.form_button button, .mail_btn {
 		width: 250px;
 		font-size: 24px;
 		padding: 15px 0;
 	}
+
+	.sended {
+		padding: 100px 0;
+	}
+
+	.mail_success {
+		margin-top: 20px;
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.mail_text {
+		margin-top: 20px;
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.mail_info {
+		margin-bottom: 20px;
+	}
+
+	.mail_text > a {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
 }
 
 
@@ -301,16 +420,22 @@ input[type=file] {
 
 
 	#beta {
-		padding: 20px 0;
-		padding-top: 100px;
-		height: 1000px;
+		display: none;
 	}
+
+	.beta {
+		display: none;
+	}
+
+	.beta-sm {
+		display: block;
+	}
+
 
 	.beta_text {
 		margin-bottom: 20px;
 		font-size: 16px;
     	line-height: 20px;
-    	padding-right: 150px;
 	}
 
 	.beta_button {
@@ -362,7 +487,7 @@ input[type=file] {
 		text-align: center;
 		margin-top: 50px;
 	}
-	.form_button button {
+	.form_button button, .mail_btn {
 		width: 200px;
 		font-size: 18px;
 		padding: 10px 0;
@@ -373,14 +498,6 @@ input[type=file] {
 
 @media (max-width: 576px) {
 
-
-	#beta {
-		padding: 20px 0;
-		padding-top: 50px;
-		height: 800px;
-		text-align: center;
-	}
-
 	.beta_title {
 		font-size: 24px;
     	line-height: 36px;
@@ -388,9 +505,9 @@ input[type=file] {
 	}
 
 	.beta_text {
-		font-size: 16px;
-    	line-height: 24px;
-    	padding-right: 0;
+    	font-size: 12px;
+		line-height: 15px;
+		padding: 0 15px;
 	}
 
 	.beta_button {
@@ -400,7 +517,8 @@ input[type=file] {
 	}
 
 	#send {
-		padding: 30px 0;
+		padding: 0;
+		padding-bottom: 30px;
 	}
 
 	.send {
@@ -408,9 +526,9 @@ input[type=file] {
 	}
 
 	.form_title {
-		font-size: 30px;
-		line-height: 36px;
-		margin-bottom: 20px;
+		font-size: 22px;
+		line-height: 27px;
+		margin-bottom: 36px;
 	}
 
 	.form-item {
@@ -419,23 +537,30 @@ input[type=file] {
 		margin-bottom: 20px;
 	}
 
+	.form-item-file {
+		flex-direction: row;
+		align-items: center;
+	}
+
 	.form-label {
-		font-size: 16px;
-		line-height: 24px;
+		font-size: 14px;
+		line-height: 17px;
 		margin-bottom: 5px;
 	}
 
 	.form-item input, .form-item textarea {
 		height: 50px;
 		font-size: 14px;
+		line-height: 17px;
 		border-radius: 5px;
 	}
 
 	.form-item .file_label {
 		border-radius: 5px;
-		width: 200px;
-		padding: 10px 0;
-		font-size: 16px;
+		width: 180px;
+		font-size: 12px;
+		line-height: 15px;
+		padding: 13px 0;
 	}
 
 	.form-item textarea {
@@ -444,15 +569,49 @@ input[type=file] {
 	}
 
 	.form_button {
-		text-align: right;
 		margin-top: 30px;
 	}
-	.form_button button {
+	.form_button button, .mail_btn {
 		border-radius: 5px;
-		width: 200px;
-		font-size: 16px;
-		padding: 10px 0;
+		width: 180px;
+		font-size: 12px;
+		line-height: 15px;
+		padding: 13px 0;
 	}
+
+	.sended {
+		padding: 0;
+		padding-bottom: 50px;
+	}
+
+	.mail_success {
+		margin-top: 10px;
+		font-size: 24px;
+		line-height: 36px;
+	}
+	.mail_text {
+		margin-top: 10px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.mail_info {
+		margin-bottom: 10px;
+	}
+
+	.mail_text > a {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.mail_info img {
+		width: 180px;
+	}
+
+	.mail_btn {
+		width: 180px;
+		border-radius: 5px;
+	}
+
 }
 
 @media (max-width: 425px) {

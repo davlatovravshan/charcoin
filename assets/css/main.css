@@ -21,7 +21,7 @@
 html, body {
 	min-height: 100%;
 	overflow-x: hidden;
-	background: #E5E5E5;
+	background: #F3F3F3;
 }
 
 .wrapper {
@@ -47,6 +47,11 @@ a:focus, input:focus, textarea:focus, button:focus {
 	outline: none;
 }
 
+textarea {
+	min-height: 100px;
+	resize: vertical;
+}
+
 img {
 	max-width: 100%;
 }
@@ -63,6 +68,7 @@ img {
 	font-size: 24px;
 	line-height: 29px;
 	color: #FFFFFF;
+	position: relative;
 }
 
 .section {
@@ -145,7 +151,8 @@ img {
 	.main_btn {
 		font-size: 12px;
 		line-height: 15px;
-		padding: 10px 22px;
+		padding: 11px 22px;
+		border-radius: 5px;
 	}
 	.last-section {
 		background-size: 200px;
