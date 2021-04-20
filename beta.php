@@ -30,7 +30,7 @@
 	</section>
 
 	<div class="beta-sm">
-		<img class="bg-sm_img" src="img/bg-sm.png" alt="">
+		<img class="bg-sm_img" src="assets/img/bg-sm.png" alt="">
 		<div class="beta-sm_info">
 			<h2 class="beta_title bet_title-sm">
 				Next-get NFTs <br> for Everyone
@@ -46,7 +46,7 @@
 				Register for a Beta Phase
 			</button>
 			<div class="down-arrow">
-				<img src="img/down-arrow.png" alt="Down">
+				<img src="assets/img/down-arrow.png" alt="Down">
 			</div>
 		</div>
 

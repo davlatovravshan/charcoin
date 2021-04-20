@@ -30,7 +30,7 @@
 	</section>
 
 	<div class="beta-sm">
-		<img class="bg-sm_img" src="img/bg-sm.png" alt="">
+		<img class="bg-sm_img" src="assets/img/bg-sm.png" alt="">
 	</div>
 
 
@@ -41,7 +41,7 @@
 			<div class="sended">
 				
 				<div class="mail_info">
-					<img src="img/mail.png" alt="Mail">
+					<img src="assets/img/mail.png" alt="Mail">
 					<h2 class="mail_success">All done!</h2>
 					<p class="mail_text">
 						Please check your inbox for further details.

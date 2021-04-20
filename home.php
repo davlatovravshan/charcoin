@@ -34,7 +34,7 @@
 				</div>
 
 				<div class="banner-right">
-					<img class="banner_img-human" src="img/banner/human.png" alt="Human">
+					<img class="banner_img-human" src="assets/img/banner/human.png" alt="Human">
 				</div>
 
 			</div>
@@ -64,12 +64,12 @@
 
            <div class="benefits_cards">
 
-	           	<img class="benefits_img-bg almaz_img" src="img/benefits/almaz.png" alt="Almaz">
-				<img class="benefits_img-bg baloon_img" src="img/benefits/baloon.png" alt="Baloon">
+	           	<img class="benefits_img-bg almaz_img" src="assets/img/benefits/almaz.png" alt="Almaz">
+				<img class="benefits_img-bg baloon_img" src="assets/img/benefits/baloon.png" alt="Baloon">
 
 	           	<div class="benefits_card">
 	           		<div class="card_wrapper">
-	           			<img src="img/benefits/1.png" alt="Image 1">
+	           			<img src="assets/img/benefits/1.png" alt="Image 1">
 	           			<div class="card_info">
 	           				<h4 class="card_title">Marketplace</h4>
 	           				<p class="card_text">Trade and explore new pieces</p>
@@ -79,7 +79,7 @@
 
 	           	<div class="benefits_card">
 	           		<div class="card_wrapper">
-	           			<img src="img/benefits/2.png" alt="Image 1">
+	           			<img src="assets/img/benefits/2.png" alt="Image 1">
 	           			<div class="card_info">
 	           				<h4 class="card_title">Charcoin</h4>
 	           				<p class="card_text">Coming Soon</p>
@@ -89,7 +89,7 @@
 
 	           	<div class="benefits_card">
 	           		<div class="card_wrapper">
-	           			<img src="img/benefits/3.png" alt="Image 1">
+	           			<img src="assets/img/benefits/3.png" alt="Image 1">
 	           			<div class="card_info">
 	           				<h4 class="card_title">Distribution</h4>
 	           				<p class="card_text">
@@ -103,7 +103,7 @@
 
 	           	<div class="benefits_card">
 	           		<div class="card_wrapper">
-	           			<img src="img/benefits/4.png" alt="Image 1">
+	           			<img src="assets/img/benefits/4.png" alt="Image 1">
 	           			<div class="card_info">
 	           				<h4 class="card_title">Advisory</h4>
 	           				<p class="card_text">Hire NFT designers and developers</p>
@@ -113,7 +113,7 @@
 
 	           	<div class="benefits_card">
 	           		<div class="card_wrapper">
-	           			<img src="img/benefits/5.png" alt="Image 1">
+	           			<img src="assets/img/benefits/5.png" alt="Image 1">
 	           			<div class="card_info">
 	           				<h4 class="card_title">Platform</h4>
 	           				<p class="card_text">Create, upload and integrate</p>
@@ -123,7 +123,7 @@
 
 	           	<div class="benefits_card">
 	           		<div class="card_wrapper">
-	           			<img src="img/benefits/6.png" alt="Image 1">
+	           			<img src="assets/img/benefits/6.png" alt="Image 1">
 	           			<div class="card_info">
 	           				<h4 class="card_title">Wallet</h4>
 	           				<p class="card_text">Keep and manage your digital assets in a secure way</p>
@@ -160,7 +160,7 @@
 				
 				<div class="slider-item">
 					<div class="slider-top">
-						<img src="img/slider/1.png" alt="Slider image">
+						<img src="assets/img/slider/1.png" alt="Slider image">
 					</div>
 					<div class="slider-bottom">
 						<p class="slider-text">
@@ -173,7 +173,7 @@
 
 				<div class="slider-item">
 					<div class="slider-top">
-						<img src="img/slider/2.png" alt="Slider image">
+						<img src="assets/img/slider/2.png" alt="Slider image">
 					</div>
 					<div class="slider-bottom">
 						<p class="slider-text">
@@ -188,7 +188,7 @@
 
 				<div class="slider-item">
 					<div class="slider-top">
-						<img src="img/slider/3.png" alt="Slider image">
+						<img src="assets/img/slider/3.png" alt="Slider image">
 					</div>
 					<div class="slider-bottom">
 						<p class="slider-text">
@@ -202,7 +202,7 @@
 
 				<div class="slider-item">
 					<div class="slider-top">
-						<img src="img/slider/1.png" alt="Slider image">
+						<img src="assets/img/slider/1.png" alt="Slider image">
 					</div>
 					<div class="slider-bottom">
 						<p class="slider-text">
@@ -215,7 +215,7 @@
 
 				<div class="slider-item">
 					<div class="slider-top">
-						<img src="img/slider/2.png" alt="Slider image">
+						<img src="assets/img/slider/2.png" alt="Slider image">
 					</div>
 					<div class="slider-bottom">
 						<p class="slider-text">
@@ -230,7 +230,7 @@
 
 				<div class="slider-item">
 					<div class="slider-top">
-						<img src="img/slider/3.png" alt="Slider image">
+						<img src="assets/img/slider/3.png" alt="Slider image">
 					</div>
 					<div class="slider-bottom">
 						<p class="slider-text">
@@ -265,11 +265,11 @@
 					</p>
 					<a href="#" class="more_btn">
 						Learn more&nbsp;&nbsp;
-						<img src="img/arrow-next.png" alt="Elephant">
+						<img src="assets/img/arrow-next.png" alt="Elephant">
 					</a>
 				</div>
 				<div class="semi-section-right elephant-right img-side">
-					<img class="elephant-img" src="img/elephant.png" alt="Elephant">
+					<img class="elephant-img" src="assets/img/elephant.png" alt="Elephant">
 				</div>
 
 			</div>
@@ -285,7 +285,7 @@
 			<div class="triangle semi-section-content">
 					
 				<div class="semi-section-left img-side">
-					<img src="img/triangle.png" alt="Elephant">
+					<img src="assets/img/triangle.png" alt="Elephant">
 				</div>
 				<div class="semi-section-right">
 					<h2 class="title">Why Charcoin?</h2>
@@ -295,7 +295,7 @@
 						partnerships with creators and NFT artists
 					</p>
 					<a href="#" class="more_btn">
-						<img src="img/arrow-prev.png" alt="Elephant">
+						<img src="assets/img/arrow-prev.png" alt="Elephant">
 						&nbsp;&nbsp;Learn more
 					</a>
 				</div>
@@ -324,18 +324,18 @@
 					</p>
 					<a href="#" class="more_btn">
 						Learn more&nbsp;&nbsp;
-						<img src="img/arrow-next.png" alt="Elephant">
+						<img src="assets/img/arrow-next.png" alt="Elephant">
 					</a>
 				</div>
 				<div class="semi-section-right elephant-right img-side">
-					<img class="arm-img" src="img/arm.png" alt="Elephant">
+					<img class="arm-img" src="assets/img/arm.png" alt="Elephant">
 				</div>
 
 			</div>
 
 		</div>
 
-		<img class="prizma-img" src="img/prizma.png" alt="Prizma">
+		<img class="prizma-img" src="assets/img/prizma.png" alt="Prizma">
 	
 	</section>
 

@@ -6,7 +6,7 @@
 
 			<div class="left-header">
 				<div class="logo">
-					<img src="img/logo.png" alt="Logo" class="logo_img"/>
+					<img src="assets/img/logo.png" alt="Logo" class="logo_img"/>
 				</div>
 			</div>
 
@@ -17,7 +17,7 @@
 					<li><a href="services" class="header_link">Services</a></li>
 					<li><a href="about" class="header_link">About Us</a></li>
 					<li>
-						<img class="search_img" src="img/search.png" alt="Search"/>
+						<img class="search_img" src="assets/img/search.png" alt="Search"/>
 					</li>
 				</ul>
 

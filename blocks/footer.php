@@ -13,19 +13,19 @@
 				<ul class="footer_list">
 					<li>
 						<a href="home" class="footer_link">
-							<img src="img/footer-arrow.png" alt="Arrow">
+							<img src="assets/img/footer-arrow.png" alt="Arrow">
 							&nbsp;&nbsp;Home
 						</a>
 					</li>
 					<li>
 						<a href="services" class="footer_link">
-							<img src="img/footer-arrow.png" alt="Arrow">
+							<img src="assets/img/footer-arrow.png" alt="Arrow">
 							&nbsp;&nbsp;Services
 						</a>
 					</li>
 					<li>
 						<a href="about" class="footer_link">
-							<img src="img/footer-arrow.png" alt="Arrow">
+							<img src="assets/img/footer-arrow.png" alt="Arrow">
 							&nbsp;&nbsp;About Us
 						</a>
 					</li>
@@ -33,7 +33,7 @@
 				<div class="search">
 					<input type="search" class="footer_input" placeholder="Search">
 					<button class="search_btn">
-						<img src="img/search.png" alt="Search Btn">
+						<img src="assets/img/search.png" alt="Search Btn">
 					</button>
 				</div>
 				<p class="footer_reserve footer_title-sm">Write us: team@charcoin.io</p>

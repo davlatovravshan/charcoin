@@ -35,7 +35,7 @@
 
 				<div class="simple-card">
 					<div class="simple-card-img">
-						<img src="img/services/card-1.png" alt="Card 1">
+						<img src="assets/img/services/card-1.png" alt="Card 1">
 					</div>
 					<div class="simple-card-info">
 						<p class="text-sm">
@@ -47,7 +47,7 @@
 
 				<div class="simple-card">
 					<div class="simple-card-img">
-						<img src="img/services/card-2.png" alt="Card 1">
+						<img src="assets/img/services/card-2.png" alt="Card 1">
 					</div>
 					<div class="simple-card-info">
 						<p class="text-sm">
@@ -59,7 +59,7 @@
 
 				<div class="simple-card">
 					<div class="simple-card-img">
-						<img src="img/services/card-3.png" alt="Card 1">
+						<img src="assets/img/services/card-3.png" alt="Card 1">
 					</div>
 					<div class="simple-card-info">
 						<p class="text-sm">
@@ -99,13 +99,13 @@
 					</p>
 				</div>
 				<div class="card_img">
-					<img src="img/card_line/figure.png" alt="Figure">
+					<img src="assets/img/card_line/figure.png" alt="Figure">
 				</div>
 			</div>
 
 			<div class="card_line card_line_reverse">
 				<div class="card_img">
-					<img src="img/card_line/piramid.png" alt="Piramid">
+					<img src="assets/img/card_line/piramid.png" alt="Piramid">
 				</div>
 				<div class="card_line_info">
 					<h4 class="title-sm">
@@ -169,7 +169,7 @@
 						</ol>
 					</div>
 					<div class="card_slide_img">
-						<img src="img/card_line/card-1.png" alt="Card 1">
+						<img src="assets/img/card_line/card-1.png" alt="Card 1">
 					</div>
 				</div>
 
@@ -189,7 +189,7 @@
 						</p>	
 					</div>
 					<div class="card_slide_img">
-						<img src="img/card_line/card-2.png" alt="Card 2">
+						<img src="assets/img/card_line/card-2.png" alt="Card 2">
 					</div>
 				</div>
 
@@ -212,7 +212,7 @@
 						</p>
 					</div>
 					<div class="card_slide_img">
-						<img src="img/card_line/card-3.png" alt="Card 3">
+						<img src="assets/img/card_line/card-3.png" alt="Card 3">
 					</div>
 				</div>
 
@@ -220,7 +220,7 @@
 
 		</div>
 
-		<img class="prizma-img" src="img/prizma.png" alt="Prizma">
+		<img class="prizma-img" src="assets/img/prizma.png" alt="Prizma">
 	
 	</section>
 
