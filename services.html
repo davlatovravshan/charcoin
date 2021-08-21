@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<?php require 'blocks/head.php' ?>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CharCoin</title>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-	
-<?php require 'blocks/header.php' ?>
+
+	<header id="header">
+
+		<div class="wrapper">
+
+			<div class="header">
+
+				<div class="left-header">
+					<div class="logo">
+						<img src="assets/img/logo.png" alt="Logo" class="logo_img"/>
+					</div>
+				</div>
+
+				<div class="right-header">
+
+					<ul class="header_list">
+						<li><a href="home.html" class="header_link">Home</a></li>
+						<li><a href="services.html" class="header_link">Services</a></li>
+						<li><a href="about.html" class="header_link">About Us</a></li>
+						<li><a href="beta.html" class="header_link">Beta</a></li>
+						<li>
+							<img class="search_img" src="assets/img/search.png" alt="Search"/>
+						</li>
+					</ul>
+
+					<div class="menu">
+						<button class="menu-burger">
+							<span class="menu-span span-1"></span>
+							<span class="menu-span span-2"></span>
+							<span class="menu-span span-3"></span>
+						</button>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</header>
+
+	<div class="menu-sm">
+		<ul class="menu-sm_list">
+			<li><a href="home.html" class="menu-sm_link">Home</a></li>
+			<li><a href="services.html" class="menu-sm_link">Services</a></li>
+			<li><a href="about.html" class="menu-sm_link">About Us</a></li>
+			<li><a href="beta.html" class="menu-sm_link">Beta</a></li>
+		</ul>
+	</div>
 
 	<section id="banner">
 		
@@ -224,9 +294,59 @@
 	
 	</section>
 
-<?php require 'blocks/footer.php' ?>
+	<footer id="footer">
 
-<script src="js/main.js"></script>
+		<div class="wrapper">
+			<div class="footer">
+				<div class="footer-left">
+					<h4 class="footer_title">CharCoin</h4>
+					<p class="footer_text">
+						We will disrupt the digital art space.
+					</p>
+					<p class="footer_title-sm">All Rights Reserved</p>
+				</div>
+				<div class="footer-right">
+					<ul class="footer_list">
+						<li>
+							<a href="home.html" class="footer_link">
+								<img src="assets/img/footer-arrow.png" alt="Arrow">
+								&nbsp;&nbsp;Home
+							</a>
+						</li>
+						<li>
+							<a href="services.html" class="footer_link">
+								<img src="assets/img/footer-arrow.png" alt="Arrow">
+								&nbsp;&nbsp;Services
+							</a>
+						</li>
+						<li>
+							<a href="about.html" class="footer_link">
+								<img src="assets/img/footer-arrow.png" alt="Arrow">
+								&nbsp;&nbsp;About Us
+							</a>
+						</li>
+						<li>
+							<a href="beta.html" class="footer_link">
+								<img src="assets/img/footer-arrow.png" alt="Arrow">
+								&nbsp;&nbsp;Beta
+							</a>
+						</li>
+					</ul>
+					<div class="search">
+						<input type="search" class="footer_input" placeholder="Search">
+						<button class="search_btn">
+							<img src="assets/img/search.png" alt="Search Btn">
+						</button>
+					</div>
+					<p class="footer_reserve footer_title-sm">Write us: team@charcoin.io</p>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
